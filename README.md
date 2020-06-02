@@ -1,2 +1,3 @@
-# Project_Cyberpunk
-Project Cyberpunk is my Bachelor Thesis made in Unity 5. This game will allow you to handle a team of characters where you can swap them anytime you want to use them as your active character. The game consists of 2 levels. First level is a checkpoint based run where players have to cross an area and face groups of enemies. Second level is an elimination count based level. Player has to eliminate a certain number of enemies before making his exit. This is the playable prototype.  
+# Gameplay Asset Tools
+Gameplay Asset Tools is a basic collections of tools created to help out developers and designers to allow them certain functionalities.
+This version contains a package of : Player controller , Camera controller and the Snapshot Manager/Viewer. The player controller is humanoid rig oriented and comes with the basic walk/run cycle, as well as crouch and jump.

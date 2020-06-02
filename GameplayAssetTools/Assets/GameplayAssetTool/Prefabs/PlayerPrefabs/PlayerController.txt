@@ -1,0 +1,42 @@
+Description:
+Player Controller is a generic asset which operates the classic handling techniques for movement,crouch and jump.
+The asset contains a makehuman model and Ethan model from Unity ,as well as animations provided via standard assets bundle for demonstration purpose inside the demo scene.
+The player controller supports only humanoid type of rigs . Any other type of rig is not supported.
+Animations and avatar can be switched to your own taste. (Note: For the best result the bone hierarchy should match Unity's rig format.)
+ 1)If you wish to change animations. Simply navigate through PlayerAC Animator component and change the animation clips.
+
+Overview:
+1)Supports classic W,A,S,D walk,sprint,crouch movement.
+2)Supports fast crouch movement.
+3)Supports Jump actions in idle,walk and run conditions.
+4)Supports motion alignment with camera's perspective orientation.
+5)Supports motion checks on small areas. E.G : Can't return to idle from crouch mode while passing through or standing on a narrow or short area , as well as jump interaction when objects are very close to your character's height.
+
+Requirements:
+1)PlayerController script requires components of <Collider> , <Animator> and <Rigidbody>. 
+
+Setting Up:
+1)The target object which is selected to be the controlled player must have the "Player" tag.
+2)Any unassigned materials for player are located inside the Models Folder (Note: this instruction applies in case of import glitch to your project.)
+
+Controls:
+1) Walk Forward -> Key: W
+2) Strafe Left -> Key: A
+3) Strafe Right -> Key: D
+4) Turn Around -> Key: S
+5) Left Walk Movement -> Key: W + A
+6) Right Walk Movement -> Key: W + D
+7) Sprint Forward -> Key: LSHIFT + W
+8) Sprint Left -> Key: LSHIFT + W + A
+9) Sprint Right -> Key: LSHIFT + W + D
+10) Crouch mode/Normal Mode -> Key: C (Note:Press again to switch between states)
+11) Crouch walk -> key: W (while on Crouch Mode)
+12) Crouch Strafe Left -> Key: A (while on Crouch Mode)
+13) Crouch Strafe Right -> Key: D (while on Crouch Mode)
+14) Crouch Walk Left -> Key: W + A (while on Crouch Mode)
+15) Crouch Walk Right -> Key: W + D (while on Crouch Mode)
+16) Crouch Fast Walk -> Key: LSHIFT + W (while on Crouch Mode)
+17) Crouch Fast Walk Left -> Key: LSHIFT + W + A (while on Crouch Mode)
+18) Crouch Fast Walk Right -> Key: LSHIFT + W + D (while on Crouch Mode)
+19) Jump (Idle/Walking/Sprinting Modes) -> Key: Space (while walking/running forward or stand idle.)
+20) Align Player Orientation to Camera Orientation : Middle Mouse Button (MMB)

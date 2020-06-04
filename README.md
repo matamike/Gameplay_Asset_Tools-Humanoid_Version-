@@ -44,6 +44,7 @@ Step 4 : The list below contains all the animations needed from Standard Assets 
     Animation Controller.)
 		
 ###################################
+
    State Name  | Animation Name
    
    "Idle"   |  "HumanoidIdle"(Layer: BaseLayer)

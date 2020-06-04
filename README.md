@@ -44,22 +44,36 @@ Setup:
 
     
    State Name  | Animation Name
-		  "Idle"   |  "HumanoidIdle"		(Layer: BaseLayer)
-		"LeftIdle" | "StandQuarterTurnLeft"	(Layer: BaseLayer)
-    "RightIdle"| "StandQuarterTurnRight"	(Layer: BaseLayer)
-    "JumpIdle" | "HumanoidJumpUp"		(Layer: BaseLayer)
-     "Walk"    | "HumanoidWalk"		(Layer: BaseLayer)
- 		"WalkLeft" | "HumanoidWalkLeft"		(Layer: BaseLayer)
- 		"WalkRight"| "HumanoidWalkRight"	(Layer: BaseLayer)
- 		"JumpWalk" | "HumanoidMidAir"		(Layer: BaseLayer)
-		   "Run"   | "HumanoidRun"		(Layer: BaseLayer)
-		"RunLeft"  | "HumanoidRunLeft"		(Layer: BaseLayer)
-		"RunRight" | "HumanoidRunRight"		(Layer: BaseLayer)
-		"JumpRun"  | "HumanoidJumpForwardLeft"	(Layer: BaseLayer)
+    "Idle"   |  "HumanoidIdle"(Layer: BaseLayer)
+      
+  "LeftIdle" | "StandQuarterTurnLeft"(Layer: BaseLayer)
+    
+  "RightIdle"| "StandQuarterTurnRight"(Layer: BaseLayer)
+    
+  "JumpIdle" | "HumanoidJumpUp"(Layer: BaseLayer)
+  
+   "Walk"    | "HumanoidWalk"	(Layer: BaseLayer)
+  
+  "WalkLeft" | "HumanoidWalkLeft"(Layer: BaseLayer)
+  
+  "WalkRight"| "HumanoidWalkRight"(Layer: BaseLayer)
+  
+  "JumpWalk" | "HumanoidMidAir"	(Layer: BaseLayer)
+  
+   "Run"   | "HumanoidRun"	(Layer: BaseLayer)
+  
+  "RunLeft"  | "HumanoidRunLeft"(Layer: BaseLayer)
+  
+  "RunRight" | "HumanoidRunRight"(Layer: BaseLayer)
+  
+  "JumpRun"  | "HumanoidJumpForwardLeft"(Layer: BaseLayer)
 
   "IdleCrouch" | "HumanoidCrouchIdle"  	(Layer:Crouch)
+  
   "IdleCrouchTurnLeft" | "HumanoidCrouchTurnLeft"   (Layer:Crouch)
+  
   "IdleCrouchTurnRight"| "HumanoidCrouchTurnRight"  (Layer:Crouch)
+  
   "CrouchWalk"(BlendingTree)| Assign from top to bottom with the following sequence the clips:   
   "HumanoidCrouchWalkLeft","HumanoidCrouchWalk","HumanoidCrouchWalkLeft"(Check if Mirror Animation is enabled)(Layer:Crouch)
 

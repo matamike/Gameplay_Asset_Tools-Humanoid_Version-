@@ -44,7 +44,8 @@ Setup:
 
     
    State Name  | Animation Name
-    "Idle"   |  "HumanoidIdle"(Layer: BaseLayer)
+   
+   "Idle"   |  "HumanoidIdle"(Layer: BaseLayer)
       
   "LeftIdle" | "StandQuarterTurnLeft"(Layer: BaseLayer)
     
